@@ -2,8 +2,12 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <title>
+      灰狼先生的赛博山洞
+  </title>
   <!-- import CSS -->
   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 </head>
 <body>
 <style>
@@ -20,14 +24,18 @@
 <h1>
   欢迎来到可爱小猫咪的赛博猫窝ฅ(ﾐㅇ ༝ ㅇﾐ)ฅ
 </h1>
-<div id="app">
+ <div id="app" style="background: cornsilk;text-align: center;padding: 20px">
     <el-button type="primary" @click="visible = true">请把猫爪按在此处进行猫猫的猫爪验证！</el-button>
     <el-dialog :visible.sync="visible" title="验证通过~是看的懂汉字的聪明猫猫！">
       <p>奖励灰狼先生的亲亲！喂糖果！<i class="el-icon-sugar"></i></p>
     </el-dialog>
-  <el-button type="primary" round> <a href="story.html">故事按钮</a></el-button>
-     <a href="test1.html">跳转到测试页面</a>
-     <a href="https://www.bilibili.com/"><i class="el-icon-sugar"></i></a>
+ </div>
+<div style="max-width: 700px;margin: 30px auto;padding: 15px;line-height: 1.7;">
+    <p>嗨嗨嗨！这里是灰狼先生给他最爱的猫咪小姐的赛博猫窝哦~</p>
+    <p><img style="text-align: left" src="iceneko.jpg" width="68px" height="347px"></p>
+    <p><el-button type="primary" round> <a href="story.html">故事按钮</a></el-button></p>
+    <p><a href="test1.html">跳转到测试页面</a></p>
+    <p><a href="https://www.bilibili.com/"><i class="el-icon-sugar"></i></a></p>
 </div>
 </body>
 <body>
